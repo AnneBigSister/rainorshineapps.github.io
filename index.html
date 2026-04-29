@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rain or Shine Apps</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; }
+    .header { background: linear-gradient(135deg, #4f46e5, #7c3aed); padding: 60px 24px; text-align: center; }
+    .header h1 { color: white; font-size: 36px; font-weight: 700; margin-bottom: 8px; }
+    .header p { color: #c7d2fe; font-size: 18px; }
+    .container { max-width: 700px; margin: 0 auto; padding: 48px 24px; }
+    .apps { display: flex; flex-direction: column; gap: 24px; }
+    .app-card { background: white; border-radius: 20px; padding: 28px; border: 1px solid #e2e8f0; display: flex; align-items: flex-start; gap: 20px; }
+    .app-icon { width: 64px; height: 64px; border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 32px; flex-shrink: 0; }
+    .app-icon.decidr { background: #4f46e5; }
+    .app-info { flex: 1; }
+    .app-name { font-size: 20px; font-weight: 700; color: #0f172a; margin-bottom: 4px; }
+    .app-tagline { font-size: 14px; color: #64748b; margin-bottom: 12px; line-height: 1.5; }
+    .app-links { display: flex; gap: 12px; flex-wrap: wrap; }
+    .app-links a { font-size: 13px; color: #4f46e5; font-weight: 500; text-decoration: none; }
+    .app-links a:hover { text-decoration: underline; }
+    .badge { display: inline-block; background: #eff6ff; color: #4f46e5; padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 12px; }
+    .coming-soon { background: #f8fafc; border: 2px dashed #e2e8f0; }
+    .coming-soon .app-name { color: #94a3b8; }
+    .coming-soon .badge { background: #f1f5f9; color: #94a3b8; }
+    .about { background: white; border-radius: 20px; padding: 28px; border: 1px solid #e2e8f0; margin-top: 24px; }
+    .about h2 { font-size: 18px; font-weight: 600; margin-bottom: 12px; }
+    .about p { color: #64748b; line-height: 1.6; font-size: 14px; }
+    .contact { text-align: center; padding: 32px; color: #64748b; font-size: 14px; }
+    .contact a { color: #4f46e5; text-decoration: none; font-weight: 500; }
+    .footer { text-align: center; padding: 24px; color: #94a3b8; font-size: 13px; border-top: 1px solid #e2e8f0; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>☀️ Rain or Shine Apps</h1>
+    <p>Simple, thoughtful apps for everyday decisions</p>
+  </div>
+
+  <div class="container">
+    <div class="apps">
+
+      <!-- Decidr -->
+      <div class="app-card">
+        <div class="app-icon decidr">⬆️</div>
+        <div class="app-info">
+          <div class="badge">Available on iOS & Android</div>
+          <div class="app-name">Decidr</div>
+          <div class="app-tagline">Make better decisions, one factor at a time. Score your options against what matters most, collaborate with others, and get AI-powered insights.</div>
+          <div class="app-links">
+            <a href="decidr/index.html">Learn more</a>
+            <a href="decidr/support.html">Support</a>
+            <a href="decidr/privacy.html">Privacy Policy</a>
+            <a href="decidr/terms.html">Terms</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Creative Juices placeholder -->
+      <div class="app-card coming-soon">
+        <div class="app-icon" style="background: #f1f5f9; font-size: 32px;">🎨</div>
+        <div class="app-info">
+          <div class="badge">Coming Soon</div>
+          <div class="app-name">Creative Juices</div>
+          <div class="app-tagline">More details coming soon.</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="about">
+      <h2>About Rain or Shine Apps</h2>
+      <p>We build simple, focused apps that help people think more clearly and make better decisions. Based in the UK, we're a small independent developer passionate about thoughtful software.</p>
+    </div>
+
+    <div class="contact">
+      <p>Questions? Get in touch at <a href="mailto:rain.or.shine.apps@gmail.com">rain.or.shine.apps@gmail.com</a></p>
+    </div>
+  </div>
+
+  <div class="footer">© 2026 Rain or Shine Apps. All rights reserved.</div>
+</body>
+</html>
